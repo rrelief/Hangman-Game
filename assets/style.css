@@ -1,0 +1,58 @@
+body { 
+    font-family:sans-serif; 
+    font-weight:bold; 
+    font-size:16pt;
+}
+/* Topmatter */
+.topPage {
+    height:210px;    
+}
+.bottomPage{
+    height:auto;
+}
+
+.side-container {
+    margin-top:45px;
+    margin-left:130px;
+    width:170px;
+    text-align:center;
+}
+.container-title {
+    color:navy;
+}
+.input-area {
+    width:75px;
+    height:31px;
+    margin:auto;
+    padding:3pt;
+    border: 1px blue solid;
+    background:gainsboro;
+}
+#letter-input {
+    border:1px gainsboro solid;
+    width:20pt;
+    font-size:14pt;
+    text-align:center;
+}
+.guessed-letter {
+    color:black;
+}
+
+.word-box {
+    width:250px;
+    margin:auto;
+    margin-top:25px;
+    text-align:center;
+}
+.word-display {
+    background:gainsboro;
+    border:1px blue solid;
+    height:31px;
+    padding:3pt;
+}
+.shown-letter {
+    border-bottom: 3px #000 solid;
+    padding: 0 2px;
+    margin: 0 2px;
+    color:#1c2025;
+}
